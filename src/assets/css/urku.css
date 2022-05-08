@@ -1166,28 +1166,34 @@ body {
 }
 
 .item-1 {
-  background-image: url("../img/project-1.jpg");
+  background-image: url("../img/Selenium-java-logos.png");
+  max-height: 50%;
+  max-width: 80%;
 }
-@media (min-width: 40em) {
+@media (min-width: 30em) {
   #layout-grid:checked ~ .rk-portfolio .item-1 {
     background-position: center left;
   }
 }
 
 .item-2 {
-  background-image: url("../img/project-2.jpg");
+  background-image: url("../img/mean.png");
+  height: 50%;
+  width:50%;
 }
 
 .item-3 {
-  background-image: url("../img/project-3.jpg");
+  background-image: url("../img/unity.png");
+  height: 100%;
+  width:50%;
 }
 
 .item-4 {
-  background-image: url("../img/project-4.jpg");
+  background-image: url("../img/node-logo.png");
 }
 
 .item-5 {
-  background-image: url("../img/project-5.jpg");
+  background-image: url("../img/post-8.jpg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-5 {
@@ -1196,7 +1202,9 @@ body {
 }
 
 .item-6 {
-  background-image: url("../img/project-6.jpg");
+  background-image: url("../img/blender.png");
+  max-width: 50%;
+  max-height: 20%;
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-6 {
