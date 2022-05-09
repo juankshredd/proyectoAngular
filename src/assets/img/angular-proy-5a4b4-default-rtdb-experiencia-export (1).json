@@ -1,0 +1,23 @@
+[
+  {
+    "cargo": "Software Developer | QA Automation",
+    "descripcion": "Creation and analisys of test cases for automation fosused on finding integral solutions for the skateholders",
+    "empresa": "Perficient Latin America",
+    "rangofecha": "18/May/2022 | Currently",
+    "url": "https://firebasestorage.googleapis.com/v0/b/angular-proy-5a4b4.appspot.com/o/perficient.png?alt=media&token=4e0f9136-4ddc-494e-b76d-b69f99517487"
+  },
+  {
+    "cargo": "QA Analyst",
+    "descripcion": "Creation and analisys of test cases for automation fosused on finding integral solutions for the skateholders. Took part of CI/CD workflow with creation of DoD's, test plans, artifacts, pipelines and releases among other tools with Microsoft devOps",
+    "empresa": "TCS Colombia | Bancolombia ADM",
+    "rangofecha": "27/Sep/2021 | 05/may/2022",
+    "url": "https://firebasestorage.googleapis.com/v0/b/angular-proy-5a4b4.appspot.com/o/team-2.jpg?alt=media&token=0c973859-d4ea-4c49-929e-e241784bb007"
+  },
+  {
+    "cargo": "3D Artist",
+    "descripcion": "Creation and analisys of 3D meshes modelled and with high detail level using sculpt to normal map workflow for optimizing the game project since the art area",
+    "empresa": "Enigmatic 3D",
+    "rangofeacha": "2020-2021",
+    "url": "https://firebasestorage.googleapis.com/v0/b/angular-proy-5a4b4.appspot.com/o/juiceman.jpg?alt=media&token=f676f26e-39b4-4fb1-ae24-4fed905ed5a5"
+  }
+]
