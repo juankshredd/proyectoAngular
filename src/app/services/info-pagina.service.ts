@@ -8,16 +8,28 @@ import { InfoPagina } from '../interfaces/info-pagina-interface';
 export class InfoPaginaService {
   info: InfoPagina = {};
   cargada = false;
+  experiencia: any[] = [];
 
   constructor(private http: HttpClient) {
+    this.cargarInfo();
+    this.cargarExperiencia();
+  }
+
+  private cargarInfo(){
     // alert("infPagina listo");
     // leer el archivo JSON
     this.http.get('assets/data/data-pagina.json')
     .subscribe( (resp: InfoPagina) => {
       this.cargada = true;
       this.info = resp;
-      console.log( resp.pagina_autor );
-      console.log(resp)
+    });
+  }
+
+  private cargarExperiencia(){
+    this.http.get('https://angular-proy-5a4b4-default-rtdb.firebaseio.com/experiencia.json')
+    .subscribe( (resp: any) => {
+      this.experiencia = resp;
+      console.log(resp);
     });
   }
 }

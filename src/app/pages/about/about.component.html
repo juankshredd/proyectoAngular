@@ -1,20 +1,10 @@
 
 <div class="ae-grid au-xs-ta-center au-mb-4">
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/perficient.png" alt="" class="au-mb-3">
-    <h5 class="ae-u-bolder au-mt-2">Perficient Latin America</h5>
-    <p class="ae-u-bolder au-mb-3">Software Developer | QA Automation </p>
-    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Creation and analisys of test cases for automation fosused on finding integral solutions for the skateholders</p><a href="#0" class="ae-u-bolder au-underline">18/May/2022 | Currently</a>
-    </div>
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-2.jpg" alt="" class="au-mb-3">
-    <h5 class="ae-u-bolder au-mt-2">TCS Colombia | Bancolombia ADM</h5>
-    <p class="ae-u-bolder au-mb-3">QA Analyst</p>
-    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Creation and analisys of test cases for automation fosused on finding integral solutions for the skateholders. Took part of CI/CD workflow with creation of DoD's, test plans, artifacts, pipelines and releases among other tools with Microsoft devOps</p><a href="#0" class="ae-u-bolder au-underline">27/Sep/2022 | 05/may/2022</a>
-    </div>
-    <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
-    <img src="assets/img/juiceman.jpg" alt="" class="au-mb-3">
-    <h5 class="ae-u-bolder au-mt-2">Enigmatic 3D</h5>
-    <p class="ae-u-bolder au-mb-3">3D Artist</p>
-    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Creation and analisys of 3D meshes modelled and with high detail level using sculpt to normal map workflow for optimizing the game project since the art area</p><a href="#0" class="ae-u-bolder au-underline">2021</a>
+    <div *ngFor="let experiencia of infoService.experiencia" class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
+    <img [src]="experiencia.url" alt="" class="au-mb-3">
+    <h5 class="ae-u-bolder au-mt-2">{{experiencia.empresa}}</h5>
+    <p class="ae-u-bolder au-mb-3">{{experiencia.cargo}} </p>
+    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{experiencia.descripcion}}</p><a target="_blank" href="https://www.linkedin.com/in/juan-carlos-bohorquez-marcelo-447811125/?originalSubdomain=co" class="ae-u-bolder au-underline">{{experiencia.rangofecha}}</a>
     </div>
 </div>
 <div class="ae-grid au-pt-2">
@@ -38,7 +28,7 @@
     <p class="au-lh-3">My clients has been deligthed to give me the chance of growing at their side, all of the confidence put in my hands has been well retrieved by them, I'm proud of having been part of all the companies I used to work and now I'm pretty proud of been part of Perficient Latin America</p>
     </div>
 </div>
-<p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+<p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">Return Home<span class="arrow-cont">
         <svg>
         <use xlink:href="assets/img/symbols.svg#arrow"></use>
         </svg></span></a></p>
