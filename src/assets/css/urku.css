@@ -1358,13 +1358,13 @@ body {
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
+  background-image: url("../img/Selenium-java-logos.png");
   background-position: 50% 100%;
   background-size: 350%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-1 {
-    background-image: url("../img/project-1h.jpg");
+    background-image: url("../img/Selenium-java-logos.png");
   }
 }
 @media (min-width: 40em) {
@@ -1374,7 +1374,7 @@ body {
 }
 
 .post-inside-1 {
-  background-image: url("../img/post-1.jpg");
+  background-image: url("../img/mean.png");
 }
 
 #layout-grid:checked ~ .rk-portfolio,
